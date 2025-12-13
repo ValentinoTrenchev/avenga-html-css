@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.inner-div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  font-size: 2rem;
+  border: 7px solid black;
+}
+#div-01 {
+  position: static;
+  height: 75px;
+  border-top: none;
+  border-left: none;
+  background-color: azure;
+}
+#div-02 {
+  left: 200px;
+  top: 0;
+  height: 75px;
+  width: 300px;
+  border-top: none;
+  background-color: antiquewhite;
+}
+#div-03 {
+  top: 0;
+  left: 500px;
+  height: 75px;
+  background-color: #edcc6b;
+  border-top: none;
+}
+#div-04 {
+  width: 50px;
+  height: 575px;
+  right: 0;
+  top: 0;
+  border-right: none;
+  border-top: none;
+}
+#div-05 {
+  position: static;
+  width: 100px;
+  border-left: none;
+  background-color: #fbfde7;
+}
+#div-06 {
+  top: 75px;
+  left: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: #d62d24;
+}
+#div-07 {
+  left: 500px;
+  top: 75px;
+  background-color: #edcc6b;
+}
+#div-08 {
+  position: static;
+  width: 100px;
+  height: 300px;
+  background-color: #e1eae5;
+  border-left: none;
+}
+#div-09 {
+  left: 500px;
+  top: 275px;
+  width: 100px;
+  background-color: #dfe5d0;
+}
+#div-10 {
+  left: 600px;
+  top: 275px;
+  width: 100px;
+  background-color: #f2eee2;
+}
+#div-11 {
+  width: 100px;
+  height: 175px;
+  background-color: #f4c65a;
+  border-bottom: none;
+  border-left: none;
+}
+#div-12 {
+  left: 100px;
+  top: 475px;
+  background-color: #130409;
+  color: #ffffff;
+}
+#div-13,
+#div-14,
+#div-15,
+#div-16 {
+  left: 300px;
+  top: 475px;
+  height: 100px;
+  background-color: #f4f9e9;
+}
+#div-14 {
+  top: 575px;
+  background-color: #e1eae5;
+}
+#div-15 {
+  left: 500px;
+  background-color: #e1eae5;
+}
+#div-16 {
+  top: 575px;
+  left: 500px;
+  height: 150px;
+  background-color: #241785;
+}
+#div-17 {
+  width: 50px;
+  height: 175px;
+  right: 0;
+  top: 575px;
+  border-right: 0;
+  border-bottom: 0;
+  background-color: #d62d24;
+}
+#div-18 {
+  left: 100px;
+  top: 675px;
+  height: 75px;
+  border-bottom: none;
+}
+#div-19 {
+  left: 300px;
+  top: 675px;
+  height: 50px;
+  background-color: #130409;
+}
+#div-20 {
+  left: 300px;
+  top: 725px;
+  height: 25px;
+  width: 400px;
+  background-color: #e1eae5;
+  border-bottom: none;
+}
