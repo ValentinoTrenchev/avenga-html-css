@@ -10,6 +10,7 @@ body {
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   max-width: 1400px;
+  background-color: #d3d3d3;
 }
 a {
   text-decoration: none;
@@ -52,13 +53,17 @@ nav ul li {
 .heading-content {
   text-align: center;
   margin-top: 62px;
+  margin-bottom: 20px;
 }
 .heading-content p {
   font-size: 1.5rem;
   font-weight: 600;
+  text-transform: uppercase;
 }
-#about h2 {
-  padding-left: 20px;
+#about {
+  background-color: #2f3a63;
+  padding: 20px;
+  color: #fff;
 }
 #about p {
   line-height: 1.5rem;
@@ -73,9 +78,10 @@ nav ul li {
   height: auto;
   border-radius: 10px;
 }
-#gallery h2,
-#gallery h3 {
-  padding-left: 20px;
+#gallery {
+  background-color: #3d3d3d;
+  padding: 20px;
+  color: #fff;
 }
 .gallery-grid {
   display: grid;
@@ -117,11 +123,11 @@ nav ul li {
   color: #fff;
 }
 .discography-table {
-  width: 80%;
-  border-collapse: collapse;
+  width: 100%;
   font-size: 1.1rem;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
+  border-collapse: collapse;
 }
 .discography-table thead {
   background: #222dc3;
@@ -143,6 +149,67 @@ nav ul li {
   transition: 0.3s ease;
 }
 .full-discography-link {
-  margin: 20px;
+  margin-top: 20px;
   text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+#contact {
+  padding: 20px 40px 20px 20px;
+  background: #2f3a63;
+  color: #fff;
+}
+.contact-email {
+  font-size: 1.1rem;
+  color: #cafc40;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 20px 0;
+  text-align: left;
+  background: #131313;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #a260ff;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #3b0060;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.contact-form button:hover {
+  background: #5a008f;
 }
