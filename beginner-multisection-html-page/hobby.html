@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobby - Multi Section HTML</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#creative-process">Creative Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="heading-content">
+        <h1>Blisargon Demogorgon</h1>
+        <p>Dark Psychedelic Soundscapes From the Depths of the Night</p>
+      </div>
+    </header>
+    <section id="about">
+      <h2>About</h2>
+      <div class="about-content">
+        <img
+          src="./assets/images/profile-picture.jpg"
+          alt="Blisargon Demogorgon"
+          class="profile-img"
+        />
+
+        <p>
+          Blisargon Demogorgon is the dark-psychedelic alter ego of producer and
+          performer Valentino Trenchev, crafting music that bends reality and
+          pulls listeners into shadowy, immersive worlds. Known for his deep,
+          driving basslines, crawling atmospheres, and story-driven nocturnal
+          sets, Blisargon creates a sound experience designed to transform the
+          dancefloor into a ritual space. His performances are a fusion of
+          psychedelic intensity, precise sound design, and cinematic darkness -
+          a journey where every track unfolds like a chapter in a twisted myth.
+          <br />
+          In the year of 1999 Valentino started to produce his own tracks, and
+          he started out with Fruityloops. Valentino didn’t seem to find the
+          right power in order to express what was going on in his mind, and
+          turned his mind to Mod plug tracker, Cubase, Logic and finally decided
+          to stick with Cubase. Valentino’s first track got released in 2003 on
+          Nabi records and also after he released many tracks in compilations on
+          labels like Stone age, Ketuh, Doof, Alkaloid, Golden dawn, Peak,
+          Kagdila, Acidance, Manic dragon, Hypnotica, Digital Psionics,
+          Bhooteshwara, Plutonic, Killah Tea, Pixan, Shaman Films, Pleiadian,
+          Zaikadelic, Psylife, Divine Balance, Samsara, Goanmantra, Tremors
+          Underground, Mental Mekanix, Evil Knivel, Purple Hexagon, 2to6,
+          Caffix, Blitz Studio, Urban Antidote, Shiva Squad, Triptec and two
+          albums were released one by Inpsyde media records in 2007 called ”Book
+          of Magic” and one collaborations album released by Bhooteshwara
+          records in 2010 called ”Ruthless Illusions”.The music that streams out
+          of this project is generally deep and powerful with a lot of leads and
+          rhythms supported by mystic atmospheres.
+        </p>
+      </div>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+
+      <h3>Live Performances</h3>
+      <div class="gallery-grid">
+        <img
+          src="./assets/images/live-performance-israel.jpg"
+          alt="Live performance at Israel"
+        />
+        <img
+          src="./assets/images/live-performance-malta.jpg"
+          alt="Live performance at Malta"
+        />
+        <img
+          src="./assets/images/live-performance-slovakia.jpg"
+          alt="Live Performances at Slovakia"
+        />
+        <img
+          src="./assets/images/live-performance-switzerland.jpg"
+          alt="Live Performance at Switzerland"
+        />
+      </div>
+    </section>
+    <section id="creative-process">
+      <h2>Creative Process</h2>
+      <h3>How a Track Is Born</h3>
+      <ol>
+        <li>Concept creation and atmosphere vision</li>
+        <li>Sound design and bassline structure</li>
+        <li>Layering leads and psychedelic textures</li>
+        <li>Arrangement and storytelling transitions</li>
+        <li>Mixing, mastering, and final polishing</li>
+      </ol>
+      <h3>Tools & Elements I Use</h3>
+      <ul>
+        <li>Heavy bass-driven grooves</li>
+        <li>Cinematic atmospheres</li>
+        <li>Ritualistic percussions</li>
+        <li>Dark leads and evolving textures</li>
+        <li>Experimentation with modular FX</li>
+      </ul>
+    </section>
+    <section id="discography">
+      <h2>Discography</h2>
+      <table class="discography-table">
+        <thead>
+          <tr>
+            <th>Release</th>
+            <th>Label</th>
+            <th>Medium</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cyberstalking</td>
+            <td>Urban Antidote Records</td>
+            <td>Compilation</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Deceptive History</td>
+            <td>Forest Freaks Records</td>
+            <td>Compilation</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>Neolution</td>
+            <td>Kunayala Records</td>
+            <td>Compilation</td>
+            <td>2018</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="full-discography-link">
+        <a
+          href="https://www.discogs.com/artist/240644-Blisargon-Demogorgon"
+          target="_blank"
+          >View Full Discography</a
+        >
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p class="contact-text">
+        For bookings, collaborations, or general inquiries, feel free to reach
+        out using the form below or via
+        <a href="mailto:contact@blisargondemogorgon.com" class="contact-email"
+          >email</a
+        >.
+      </p>
+      <form class="contact-form" action="#" method="POST">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+  <link rel="stylesheet" href="./hobby.css" />
+</html>
